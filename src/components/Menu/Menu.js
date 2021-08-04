@@ -10,7 +10,19 @@ export default function Menu() {
       <div className="menu-logo">
         <Navbar theme="dark" mode="horizontal" defaultSelectedKey={["1"]}>
           <Navbar.Item key="1">
-          <Link to="/">Home</Link>
+          	<Link to="/">Home</Link>
+          </Navbar.Item>
+
+          <Navbar.Item key="2">
+          	<Link to="/new-movies">New Movies</Link>
+          </Navbar.Item>
+
+          <Navbar.Item key="3">
+          	<Link to="/popular">New Movies</Link>
+          </Navbar.Item>
+
+          <Navbar.Item key="4">
+          	<Link to="/search">New Movies</Link>
           </Navbar.Item>
         </Navbar>
       </div>
