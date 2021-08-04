@@ -1,5 +1,6 @@
 import { Layout } from 'antd';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Menu from './components/Menu';
 
 //pages
 import Home from './pages/home';
@@ -16,7 +17,7 @@ export default function App() {
     <Layout>
       <Router>
         <Header>
-          <p>Header</p>
+          <Menu />
         </Header>
 
         <Content>
