@@ -8,7 +8,7 @@ export default function Menu() {
   return (
     <div className="menu">
       <div className="menu-logo">
-        <Navbar theme="dark" mode="horizontal" defaultSelectedKey={["1"]}>
+        <Navbar theme="dark" mode="horizontal" defaultSelectedKeys={["1"]}>
           <Navbar.Item key="1">
           	<Link to="/">Home</Link>
           </Navbar.Item>
