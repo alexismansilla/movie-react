@@ -1,12 +1,13 @@
 import React from 'react';
 import { Carousel, Button } from 'antd';
 import { Link } from 'react-router-dom';
+import Loading from '../Loading';
 
 import './SliderMovies.scss';
 
 export default function SliderMovies({movies: { result, loading } = {}}) {
   if (loading || !result) {
-    return "Loading...!"
+    return <Loading />;
   }
 
   const { results } = result || {};
