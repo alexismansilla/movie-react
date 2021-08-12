@@ -1,0 +1,21 @@
+.movie-list {
+  width: 80%;
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+  border-color: black !important;
+
+  .ant-list-header {
+    background-color: black;
+
+    h2 {
+      text-align: center;
+      margin: 0;
+      color: white;
+    }
+  }
+
+  .ant-list-items {
+    height: 500px;
+    overflow: scroll;
+  }
+}
