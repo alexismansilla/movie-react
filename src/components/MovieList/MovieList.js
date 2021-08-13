@@ -32,7 +32,7 @@ function RenderMovie(props) {
     <List.Item className="movie-list__movie">
       <List.Item.Meta avatar={<Avatar src={posterPath}/>} title={<Link to={`/movie/${id}`}>{title}</Link>} />
       <Link to={`/movie/${id}`}>
-        <Button type="primary" shpe="circle" icon="right" />
+        <Button type="primary" shpe="circle" icon="right"/>
       </Link>
     </List.Item>
   );
