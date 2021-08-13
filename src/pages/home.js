@@ -4,6 +4,7 @@ import { Row, Col } from 'antd';
 import { URL_API, API } from '../utils/contants';
 import MovieList from '../components/MovieList';
 import SliderMovies from '../components/SliderMovies';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const newMovies = useFetch(`${URL_API}/movie/now_playing?api_key=${API}&language=es-ES&page=1`);
@@ -21,6 +22,7 @@ export default function Home() {
           <MovieList movies={topRated} title="Top Rated" />
         </Col>
       </Row>
+      <Footer />
     </>
   );
 }
