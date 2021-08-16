@@ -18,11 +18,11 @@ export default function Menu() {
           </Navbar.Item>
 
           <Navbar.Item key="3">
-          	<Link to="/popular">New Movies</Link>
+          	<Link to="/popular">Popular</Link>
           </Navbar.Item>
 
           <Navbar.Item key="4">
-          	<Link to="/search">New Movies</Link>
+          	<Link to="/search">Search</Link>
           </Navbar.Item>
         </Navbar>
       </div>
