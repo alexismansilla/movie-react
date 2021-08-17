@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Card } from 'antd';
+import { Col, Card, Row } from 'antd';
 import { Link } from 'react-router-dom';
 
 import './MovieCatalog.scss';
@@ -8,7 +8,7 @@ export default function MovieCatalog(props) {
   const { movies: { results } } = props;
 
   return results.map(movie => (
-    <Col xs={{ span: 5, offset: 1}} className='movie-catalog'>
+    <Col xs={8} className='movie-catalog'>
       <MovieCard movie={movie} />
     </Col>
   ));
